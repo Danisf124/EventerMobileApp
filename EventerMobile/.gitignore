@@ -1,0 +1,109 @@
+# ===========================
+# .NET / C#
+# ===========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ===========================
+# .NET MAUI / Xamarin
+# ===========================
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+**/android/build/
+**/android/.gradle/
+local.properties
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+# Pods (якщо є iOS target)
+Pods/
+
+# MAUI specific
+**/.DS_Store
+**/google-services.json
+**/GoogleService-Info.plist
+
+# ===========================
+# IDE / Editor
+# ===========================
+
+# Visual Studio / Rider
+.idea/
+*.sln.iml
+*.swp
+*.tmp
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ===========================
+# OS
+# ===========================
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+# Secrets / Config
+# ===========================
+appsettings.Local.json
+appsettings.Development.json
+*.pfx
+*.p12
+*.keystore
+secrets.json

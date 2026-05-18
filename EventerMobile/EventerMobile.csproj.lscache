@@ -59,8 +59,20 @@ TemporaryDependencyNodeTargetIdentifier=net10.0-android
 [sourceFiles]
 App.xaml.cs
 AppShell.xaml.cs
+Database/
+ BookingRepository.cs
+ Dtabasecontext.cs
+ EventRepository.cs
+ IRepository.cs
+ LocationRepository.cs
+ OrganizerRepository.cs
 MainPage.xaml.cs
 MauiProgram.cs
+Models/
+ Booking.cs
+ Event.cs
+ Locations.cs
+ Organaizer.cs
 obj/Debug/net10.0-android/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  EventerMobile.AssemblyInfo.cs
@@ -263,6 +275,11 @@ Platforms/Android/
   System.Xml.XPath.dll
   System.Xml.XPath.XDocument.dll
   WindowsBase.dll
+ sqlite-net-pcl/1.9.172/lib/netstandard2.0/SQLite-net.dll
+ sqlitepclraw.bundle_green/2.1.2/lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll
+ sqlitepclraw.core/2.1.2/lib/netstandard2.0/SQLitePCLRaw.core.dll
+ sqlitepclraw.lib.e_sqlite3.android/2.1.2/lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll
+ sqlitepclraw.provider.e_sqlite3/2.1.2/lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
  xamarin.android.glide.annotations/4.16.0.14/lib/net10.0-android36.0/Xamarin.Android.Glide.Annotations.dll
  xamarin.android.glide.disklrucache/4.16.0.14/lib/net10.0-android36.0/Xamarin.Android.Glide.DiskLruCache.dll
  xamarin.android.glide.gifdecoder/4.16.0.14/lib/net10.0-android36.0/Xamarin.Android.Glide.GifDecoder.dll
