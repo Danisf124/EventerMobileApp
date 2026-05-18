@@ -59,7 +59,13 @@ TemporaryDependencyNodeTargetIdentifier=net10.0-android
 [sourceFiles]
 App.xaml.cs
 AppShell.xaml.cs
-Database/Dtabasecontext.cs
+Database/
+ BookingRepository.cs
+ Dtabasecontext.cs
+ EventRepository.cs
+ IRepository.cs
+ LocationRepository.cs
+ OrganizerRepository.cs
 MainPage.xaml.cs
 MauiProgram.cs
 Models/
