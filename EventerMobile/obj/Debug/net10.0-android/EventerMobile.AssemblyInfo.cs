@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventerMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+23cf0727992b70317332767b05bb9e6e3910c4bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventerMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventerMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
